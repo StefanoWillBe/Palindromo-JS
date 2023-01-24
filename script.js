@@ -1,5 +1,5 @@
-// ESERCITAZIONE
-//● Una funzione per capire se la parola è palindroma
+
+// funzione per capire se la parola è palindroma
 
 // Chiedo all'utente di darmi una parola e la salvo in una variabile
 
@@ -9,7 +9,7 @@ var risultato = valutaPalindromo(parolaUtente);
 
 console.log(risultato);
 
-// funzione che accetta un argomento stringa, confronta l'argomento passato e ritorna un buleono
+// funzione che accetta un argomento stringa, confronta l'argomento passato e ritorna un buleano
 
 function valutaPalindromo (paroladavalutare) {
 
