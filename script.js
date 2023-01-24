@@ -5,7 +5,9 @@
 
 var parolaUtente = prompt( " Scrivimi una parola in modo che possa valutare se è palindroma o meno" );
 
-var risultato = valutaPalindromo(parolaUtente);
+// trasformo la stringa dell'utente tutto in minuscolo
+
+var risultato = valutaPalindromo(parolaUtente.toLowerCase());
 
 console.log(risultato);
 
